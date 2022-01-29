@@ -121,7 +121,7 @@ swagger:model AWSInstanceCheckBody
 type AWSInstanceCheckBody struct {
 
 	// AWS EC2 instance ID (i-1234567890abcdef0).
-	InstanceID string `json:"instance_id,omitempty"`
+	InstanceID string `json:"instanceId,omitempty"`
 }
 
 // Validate validates this AWS instance check body
@@ -151,9 +151,6 @@ func (o *AWSInstanceCheckBody) UnmarshalBinary(b []byte) error {
 swagger:model AWSInstanceCheckDefaultBody
 */
 type AWSInstanceCheckDefaultBody struct {
-
-	// error
-	Error string `json:"error,omitempty"`
 
 	// code
 	Code int32 `json:"code,omitempty"`
@@ -332,11 +329,7 @@ type DetailsItems0 struct {
 	//
 	// Schemes other than `http`, `https` (or the empty scheme) might be
 	// used with implementation specific semantics.
-	TypeURL string `json:"type_url,omitempty"`
-
-	// Must be a valid serialized protocol buffer of the above specified type.
-	// Format: byte
-	Value strfmt.Base64 `json:"value,omitempty"`
+	AtType string `json:"@type,omitempty"`
 }
 
 // Validate validates this details items0
