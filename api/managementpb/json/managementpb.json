@@ -61,12 +61,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -153,12 +157,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -240,12 +248,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -332,12 +344,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -424,12 +440,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -516,12 +536,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -608,12 +632,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -700,12 +728,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -792,12 +824,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -876,12 +912,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -960,12 +1000,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -1044,12 +1088,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -1126,12 +1174,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -1218,12 +1270,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -1310,12 +1366,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -1397,12 +1457,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -1734,12 +1798,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -2056,12 +2124,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -2573,12 +2645,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -3207,12 +3283,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -3505,12 +3585,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -4064,12 +4148,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -4448,12 +4536,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5270,12 +5362,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5399,12 +5495,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5494,12 +5594,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5606,12 +5710,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5708,12 +5816,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5777,12 +5889,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
@@ -5862,12 +5978,16 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "@type": {
+                      "type_url": {
                         "type": "string",
                         "x-order": 0
+                      },
+                      "value": {
+                        "type": "string",
+                        "format": "byte",
+                        "x-order": 1
                       }
-                    },
-                    "additionalProperties": false
+                    }
                   },
                   "x-order": 2
                 },
